@@ -1,2 +1,2 @@
 # landing-page
-A practice project from TheOdinProject
+A practice project from TheOdinProject  
