@@ -23,7 +23,7 @@ button {
   color: #F9FAF8;
   border-radius: 0.5rem;
   padding: 1rem;
-  border: none;
+  border: 0.3rem solid white;
   display: inline-block;
   width: 15rem;
   font-size: 1.8rem;
@@ -149,4 +149,36 @@ h2 {
 .quote-by {
   text-align: left;
   font-weight: 700;
+}
+
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.signup .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  color: white;
+  background-color: #3882F6;
+  padding: 5rem 6rem;
+}
+.signup .content p {
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1rem 0;
+
 }
