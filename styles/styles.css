@@ -1,11 +1,13 @@
+/* ##### resets ##### */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-
 }
 
+
+/* ##### body and common styles ##### */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -36,18 +38,18 @@ button:active {
   background-color: #3288F6;
 }
 
+
+/* ##### nav styles ##### */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 3rem 10rem;  
-
   align-items: center;
 }
 .site-name {
   font-size: 1.8rem;
   font-weight: 700;
   color: #F9FAF8;
-
 }
 .nav-links {
   display: flex;
@@ -66,6 +68,9 @@ nav {
   text-decoration: none;
   color: #E7E5E8;
 }
+
+
+/* ##### header styles ##### */
 header {
   display: flex;
   padding: 5rem 20rem;
@@ -74,10 +79,6 @@ header {
   color: #F9FAF8;
   gap: 4rem;
 }
-/* .header-left, .header-right {
-  display: flex;
-  flex: 1; */
-/* } */
 .header-left {
   flex-direction: column;
 }
@@ -97,6 +98,8 @@ header p {
   height: auto;
 }
 
+
+/* ##### main content styles ##### */
 .illusion-container {
   display: flex;
   justify-content: center;
@@ -129,6 +132,8 @@ h2 {
   border: 0.5rem solid blue;
 }
 
+
+/* ##### quote area styles ##### */
 .quote-box {
   display: flex;
   justify-content: center;
@@ -136,7 +141,6 @@ h2 {
   flex-direction: column;
   padding: 10rem;
   background-color: #E5E7EB;
-
 }
 .quote-box p {
   font-size: 2.5rem;
@@ -152,6 +156,7 @@ h2 {
 }
 
 
+/* ##### signup area styles ##### */
 .signup {
   display: flex;
   justify-content: center;
@@ -174,11 +179,12 @@ h3 {
   font-size: 2rem;
 }
 
+
+/* ##### footer styles ##### */
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   padding: 1rem 0;
-
 }
